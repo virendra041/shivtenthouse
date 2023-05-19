@@ -1,0 +1,264 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+   
+    background-image: url(i/frant.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-attachment: fixed;
+    font-family:'montsarrat',sans-serif
+}
+
+
+
+
+header{
+    width: 100%;
+    height: 10%;
+    border: 1px solid transparent;
+}
+header .main{
+    margin-left: 23%;
+    margin-top: 20px;
+    float: left;
+}
+header .item{
+    float: right;
+    margin-top: 60px;
+    margin-right: 22%;
+
+}
+header .item a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+header .item a:hover{
+    text-decoration: underline;
+}
+
+header h1{
+    color: black;
+  text-align: center;
+    margin-top:15% ;
+    font-weight: 900;
+
+
+}
+header p{
+    
+    text-align: center;
+    padding-top: 5px 0 10px 0;
+    word-spacing: 10px;
+    padding-bottom: 5px;
+  font-family: 'montsarrat',sans-serif
+  
+    
+    
+}
+header #con{
+   
+    text-align: center;
+    font-weight: 700;
+ padding: 5px 30px 5px 30px;
+  color: rgb(184, 87, 87);
+  
+}
+header #con a{
+    border: 3px solid rgb(165, 82, 82);
+    border-radius: 20px;
+    width: 30px;
+    background-color: aliceblue;
+    text-decoration: none;
+   
+}
+
+
+
+
+
+
+
+/*##################show case section style###############*/
+#section{
+
+height: 100vh;
+background-position: center;
+background-size: cover;
+width: 100%;
+padding: 10em 0;
+
+}
+
+
+#section #sel{
+    border:1px solid transparent;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 80vh;
+    
+}
+#row1{
+ 
+   
+    width: 100%;
+   height: 50%;
+   
+    display: flex;
+    
+}
+#row2{
+   
+    width: 100%;
+  
+    height: 50%;
+    
+    display: flex;
+   
+}
+.imgbox{
+box-sizing: border-box;
+border: 1px solid transparent;
+background-color: aliceblue;
+width: 50%;
+height: 80%;
+box-shadow: 5px 5px 5px 0px rgb(141, 128, 14);
+}
+
+.textbox{
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    width: 50%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px 0px rgb(141, 128, 14);
+}
+footer{
+    
+    margin-bottom:0;
+    padding-bottom: 0;
+    background-color: rgb(22, 33, 44);
+
+}
+#fot{
+    width: 100%;
+    height: 20vh;
+    color: white;
+    padding-top: 10px;
+
+  
+}
+#fot #follow a i{
+    color: rgb(235, 235, 235);
+
+}
+#follow a i{
+    align-items: center;
+    justify-content: center;
+    margin-left: 30PX;
+    padding-top: 20px;
+}
+
+#follow {
+ box-sizing: border-box;
+    border: 1x solid white;
+    margin-left: 42%;
+}
+h5{
+    padding-top: 10px;
+}
+h6{
+  padding-top: 20px;
+font-weight: 300;
+word-spacing: 10px;
+color: rgb(92, 95, 97);
+text-transform: lowercase;
+}
+article{
+    margin: 0;
+    padding: 0;
+}
+
+article #fot1{
+    
+    
+    box-sizing: border-box;
+    border: 1x solid transparent ;
+  
+    height: 50vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    margin-top: 70px;
+    color: aliceblue;
+
+}
+h3{
+    margin-top: 5px;
+}
+
+article #fot1 .r1{
+ 
+    background-color:rgb(30, 51, 71);
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    width: 33%;
+    height: 60%
+    
+}
+article #fot1 .r2{
+    background-color: rgb(214, 121, 121);
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    width: 33%;
+    height: 60%
+}
+
+article #fot1 .r3{
+    background-color:rgb(30, 51, 71);
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    width: 33%;
+    height: 60%
+}
+h2{
+    margin: 5px;
+    box-sizing: border-box;
+    border-bottom: 5px solid rgb(221, 11, 11);
+}
+p{
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.more{
+    box-sizing: border-box;
+    border: 2px solid red;
+    width: 120px;
+   border-radius: 20px;
+   margin: 5px;
+   padding: 5px;
+   color: red;
+}
+.more a{
+    color: red;
+    text-decoration: none;
+}
+
+
+
+
+
+
+

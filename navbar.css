@@ -1,0 +1,63 @@
+che*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+.box{
+    height: 80px;
+    width: 100%;
+    border: 1px solid   ;
+}
+#check{
+    display: none;
+
+}
+.bar{
+    float: right;
+    font-size: 30px;
+    font-weight: 500px;
+    margin-right: 15px;
+    display: none;
+    line-height: 80px;
+}
+.logo{
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 80px;
+    float: left;
+}
+nav ul{
+    float: right;
+    display: flex;
+    line-height: 80px;
+}
+nav ul li{
+    display: flex;
+    margin-right: 20px;
+
+}
+@media (max-width:450px) {
+    .bar{
+        display: block;
+    }
+    ul{
+        top: 80px;
+        width: 50%;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid;
+        left: 100%; 
+        transition: 2s ease;
+    }
+    ul li{
+        line-height: 10px;
+        display: block;
+        height: 60px;
+    }
+    #check:hover~ul{
+        left: 0;
+    }
+}

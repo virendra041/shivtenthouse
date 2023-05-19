@@ -1,0 +1,476 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+   
+  background-image: url(logo2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-attachment: fixed;
+    font-family:'montsarrat',sans-serif
+    
+}
+
+.count{
+  box-sizing: border-box;
+  border: 1px solid rgb(11,88,119);
+  height: 60px;
+  width: 100%;
+  background-color: rgb(11,88,119);
+  position: fixed;
+}
+#check{
+  display: none;
+  
+}
+.bar{
+  display: none;
+}
+
+
+header{
+ 
+    width: 100%;
+    height: 10%;
+    border: 1px solid transparent; 
+}
+
+.main{
+  float: left;
+margin-left: 10%;
+}
+
+.item ul a li{
+  list-style: none;
+  margin-right: 30px;
+ text-decoration: none;
+
+ 
+}
+.item ul a li{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.item ul{
+  display: flex;
+ 
+
+}
+.item ul a li:hover{
+  text-decoration-line: underline;
+}
+
+.item{
+  margin-right: 10%;
+float: right;
+line-height: 60px;
+
+
+}
+
+
+header h1{
+    color: black;
+  text-align: center;
+    margin-top:400px ;
+    font-weight: 900;
+
+user-select: none;
+}
+header p{
+    
+    text-align: center;
+    padding-top: 5px 0 10px 0;
+    word-spacing: 10px;
+    padding-bottom: 5px;
+  font-family: 'montsarrat',sans-serif
+
+ 
+    
+}
+header #con{
+   
+    text-align: center;
+    font-weight: 700;
+ padding: 5px 30px 5px 30px;
+  color: rgb(255, 255, 255);
+  user-select: none;
+  
+}
+header #con a{
+    border: 3px solid rgb(4, 70, 90);
+    border-radius: 20px;
+    width: 30px;
+    background-color: rgb(4, 70, 90);
+    text-decoration: none;
+    box-shadow: 2px 2px 1px 2px rgb(4, 70, 90);
+}
+
+
+
+
+
+
+/*##################show case section style###############*/
+#section{
+
+height: 100vh;
+background-position: center;
+background-size: cover;
+width: 100%;
+padding: 10em 0;
+
+}
+
+
+#section #sel{
+    border:1px solid transparent;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 80vh;
+    
+}
+#row1{
+ 
+   
+    width: 100%;
+   height: 50%;
+   
+    display: flex;
+    
+}
+#row2{
+   
+    width: 100%;
+  
+    height: 50%;
+    
+    display: flex;
+   
+}
+.imgbox{
+box-sizing: border-box;
+border: 1px solid transparent;
+background-color: aliceblue;
+width: 50%;
+height: 80%;
+box-shadow: 5px 5px 5px 0px rgb(4, 70, 90);
+}
+
+.textbox{
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    width: 50%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px 0px rgb(4, 70, 90);
+}
+footer{
+    
+    margin-bottom:0;
+    padding-bottom: 0;
+    background-color: rgb(11,88,119);
+
+}
+#fot{
+    width: 100%;
+    height: 20vh;
+    color: white;
+    padding-top: 10px;
+
+  
+}
+#fot #follow a i{
+    color: rgb(235, 235, 235);
+
+}
+#follow a i{
+    align-items: center;
+    justify-content: center;
+    margin-left: 30PX;
+    padding-top: 20px;
+}
+
+#follow {
+ box-sizing: border-box;
+    border: 1x solid white;
+    margin-left: 42%;
+}
+h5{
+    padding-top: 10px;
+}
+h6{
+  padding-top: 20px;
+font-weight: 300;
+word-spacing: 10px;
+color: rgb(92, 95, 97);
+text-transform: lowercase;
+}
+
+
+article #fot1{
+    
+    
+    box-sizing: border-box;
+    border: 1x solid transparent ;
+  
+    height: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    margin-top: 70px;
+    color: aliceblue;
+    margin-bottom: 50px;
+
+}
+h3{
+    margin-top: 5px;
+    user-select: none;
+}
+
+article #fot1 .r1{
+ 
+    background-color:rgb(11,88,119);
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    width: 33%;
+    height: 60%
+    
+}
+article #fot1 .r2{
+    background-color: rgb(214, 121, 121);
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    width: 33%;
+    height: 60%
+}
+
+article #fot1 .r3{
+    background-color:rgb(11,88,119);
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    width: 33%;
+    height: 60%
+}
+h2{
+    margin: 5px;
+    box-sizing: border-box;
+    border-bottom: 5px solid rgb(11,88,119);
+    user-select: none;
+}
+p{
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.more{
+    box-sizing: border-box;
+    border: 2px solid rgb(11,88,119);
+    width: 120px;
+   border-radius: 20px;
+   margin: 5px;
+   padding: 5px 5px 5px 10px;
+   color: rgb(11,88,119);
+}
+.more a{
+    color: rgb(11,88,119);
+    text-decoration: none;
+}
+
+/* 
+==================================Media Quary 600============================================================ */
+
+@media (max-width:600px) {
+   header{
+    width: 100%;
+   }
+footer{
+    width: 80%;
+   }
+
+.count{
+  width: 100%;
+  position: relative;
+  position: fixed;
+}
+.bar{
+  display: block;
+}
+ul{
+  top: 60px;
+  width: 50%;
+  position: fixed;
+  
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(11,88,119) ;
+  left: 100%; 
+  transition: 2s all;
+background-color:rgb(11, 88, 119)
+ 
+}
+ul li{
+
+  display: block;
+  height: 60px;
+ 
+  
+}
+ul li a{
+   
+  box-sizing: border-box;
+  border: 2px solid rgb(11, 88, 119);
+}
+#check:hover~ul{
+  left: 0;
+}
+
+/* .item ul{
+  
+  flex-direction: column;
+margin-top: 0;
+
+display: none;
+border: 2px solid rgb(11,88,119);
+width: 80%;
+margin-top: 0;
+margin-left: 30%;
+padding-left: 20px;
+background-color: rgb(50, 107, 129);
+}
+
+.item ul a li{
+  border: 2px solid rgb(11,88,119) ;
+  width: 90%;
+  display: inline-block;
+  line-height: 200%;
+text-align: center;
+box-shadow: 2px 2px 3px 2px rgb(11,88,119);
+background-color: rgb(7, 46, 61);
+
+} */
+
+h1{
+  text-align: center;
+ 
+ 
+  margin-top: 400px;
+}
+.bar{
+  display:inline-block;
+
+  top: 0;
+  color: aliceblue;
+  margin-right: 20px;
+
+
+}
+/* #check:hover~ul{ 
+
+margin-top: 60px;
+display: block;
+
+} */
+
+
+
+
+
+
+.item ul a li{
+ 
+  color: rgb(241, 241, 241);
+  margin-left: 0;
+}
+
+    
+   
+    footer{
+      width: 100%;
+
+    }
+    h1{
+     margin-top: 150px;
+    }
+
+    
+  #section #sel #row1{
+    flex-direction: column;
+    margin-top: 30%;
+    padding-bottom: 50px;
+    
+  }
+  #section #sel #row2{
+    flex-direction: column;
+    margin-top: 100px;
+  }
+ .textbox{
+    width: 100%;
+  }
+.imgbox{
+    width: 100%;
+  }
+  h2{
+    font-size: 15px;
+    user-select: none;
+  }
+  .textbox p{
+    font-size: 10px;
+  }
+  .more{
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    width: 100px;
+  }
+  article #fot1{
+    flex-direction: column;
+   margin-top: 75%;
+   margin-bottom: 0;
+  }
+  article #fot1 .r1{
+    width: 100%;
+
+  }
+  article #fot1 .r2{
+    width: 100%;
+  }
+  article #fot1 .r3{
+    width: 100%;
+  }
+  footer{
+    margin-top: 20%;
+    margin-bottom:0;
+    padding-bottom: 0;
+    background-color: rgb(11,88,119);
+    padding-top: 0;
+    
+    bottom: 0px;
+  }
+  footer #fot #follow{
+    margin-left: 30%;
+  }
+}
+
+/* ========================================media quary 360============================================ */
+
+@media (max-width:360px) {
+ 
+ footer #fot #follow{
+  margin-left: 20%;
+ }
+ .item ul{
+ margin-bottom: 100%;
+ }
+}
+
